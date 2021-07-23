@@ -24,4 +24,4 @@ Create content for at least 10 movies and 3 actors for each movie.
 - Database dump and config files must be synchronized.
 
 ## Questions?
-https://teams.microsoft.com/l/team/19%3aTwefqioJ8diZVW2WX1ThRR4MLMj6VTDKjHNdO4celdE1%40thread.tacv2/conversations?groupId=8b8c4c39-a065-4c31-9d29-c28ae3f1fba6&tenantId=3048dc87-43f0-4100-9acb-ae1971c79395
+https://forms.office.com/r/rD6LyRp9Fn
