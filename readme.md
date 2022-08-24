@@ -2,7 +2,7 @@
 ## Technical requirements
 - You will deliver in a git repository of your choice. Mind your commit routine, make declarative clean commits.
 - You must use [composer](https://www.drupal.org/docs/develop/using-composer/using-composer-to-install-drupal-and-manage-dependencies) to manage dependencies.
-- Drupal version 9
+- Drupal version 9 [composer boilerplate](https://github.com/drupal/recommended-project)
 - You will document any necessary steps to install your solution in a "ReadMe" file in your projects root.
 
 ## Scenario
