@@ -27,12 +27,15 @@ CREATE TABLE IF NOT EXISTS `DRUPAL_DB`;
     cache: false
 ```
 
+## Commit 05 - Adicionado o dump da base de dados:
+- Acesso ao sistema como admin (AMBIENTE DE DESENVOLVIMENTO) (USER: admin-dev | PASS: devDrupal@2022)
+- Banco de dados MySQL versão 5.7 ou superior.
 ---
 
 # Recursos desejados
 - [X] Você criará um subtema e o personalizará usando CSS.
 - [X] A página inicial deste site listará Filmes em destaque e o usuário deve poder clicar no 'título' do filme, 'imagem' ou 'descrição curta' para abrir a página do filme em outra guia .
 - [X] A página do filme deve ter o 'título do filme', 'poster do filme', 'sinopse do filme' e a lista de atores deste filme.
-- [] A página do ator deve ter o 'nome do ator', 'foto do ator', 'biografia do ator' e a lista de filmes no site em que esse ator desempenhou um papel.
+- [-] A página do ator deve ter o 'nome do ator', 'foto do ator', 'biografia do ator' e a lista de filmes no site em que esse ator desempenhou um papel.
 - [] Deve haver um recurso de pesquisa no cabeçalho do site. O usuário deve ser capaz de encontrar filmes e atores.
 - [] Este site não aceita nenhum registro de usuário.
