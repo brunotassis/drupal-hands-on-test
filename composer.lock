@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80816d479bc7bfc90d4169ed36b76e3a",
+    "content-hash": "372f65cefc91dd0c1617a07187718675",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -522,8 +522,76 @@
             "time": "2022-05-31T18:46:25+00:00"
         },
         {
+            "name": "drupal/bootstrap",
+            "version": "3.25.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap.git",
+                "reference": "8.x-3.25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.25.zip",
+                "reference": "8.x-3.25",
+                "shasum": "1334aad091973f53ddc4d7b426ee85e7428a3684"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.25",
+                    "datestamp": "1654873483",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Carver (markcarver)",
+                    "homepage": "https://www.drupal.org/u/markcarver",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "John McCormick (neardark)",
+                    "homepage": "https://www.drupal.org/u/neardark",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "Fabiano Sant'Ana (wundo)",
+                    "homepage": "https://www.drupal.org/u/wundo",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "Shelane French (shelane)",
+                    "homepage": "https://www.drupal.org/u/shelane",
+                    "role": "Co-maintainer"
+                }
+            ],
+            "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap",
+                "docs": "https://drupal-bootstrap.org",
+                "issues": "https://www.drupal.org/project/issues/bootstrap",
+                "irc": "irc://irc.freenode.org/drupal-bootstrap"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "9.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core.git",
+                "reference": "23b4d51ee5bd8b506a97bd21c5635ce18b7abd76"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core/zipball/23b4d51ee5bd8b506a97bd21c5635ce18b7abd76",
@@ -684,16 +752,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core.git",
-                "reference": "23b4d51ee5bd8b506a97bd21c5635ce18b7abd76"
-            }
+            "description": "Drupal is an open source content management platform powering millions of websites and applications."
         },
         {
             "name": "drupal/core-composer-scaffold",
             "version": "9.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-composer-scaffold.git",
+                "reference": "5f37a9e4008b34e3e4f6bb34ce0b3f7e5ec8984f"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/5f37a9e4008b34e3e4f6bb34ce0b3f7e5ec8984f",
@@ -729,16 +797,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "5f37a9e4008b34e3e4f6bb34ce0b3f7e5ec8984f"
-            }
+            ]
         },
         {
             "name": "drupal/core-project-message",
             "version": "9.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-project-message.git",
+                "reference": "5dfa0b75a057caf6542be67f61e7531c737db48c"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-project-message/zipball/5dfa0b75a057caf6542be67f61e7531c737db48c",
@@ -765,16 +833,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "5dfa0b75a057caf6542be67f61e7531c737db48c"
-            }
+            ]
         },
         {
             "name": "drupal/core-recommended",
             "version": "9.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-recommended.git",
+                "reference": "a809ecbcfb7c8737c93159cf48246e040efdaf47"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-recommended/zipball/a809ecbcfb7c8737c93159cf48246e040efdaf47",
@@ -846,12 +914,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "a809ecbcfb7c8737c93159cf48246e040efdaf47"
-            }
+            "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core."
         },
         {
             "name": "egulias/email-validator",
@@ -4776,8 +4839,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "platform-overrides": {
-        "php": "7.3.0"
-    },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
